@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <a class="navbar-brand" href="index.html"></a>
+  <title>Login Page</title>
+  <style>
+    /* Style hanya untuk tampilan */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    #login-form {
+      width: 300px;
+      background: #ecead5;
+      margin: 70px auto;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+    .input-group {
+      margin-bottom: 20px;
+    }
+    .input-group label {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+    .btn {
+      padding: 10px;
+      font-size: 16px;
+      color: #fff;
+      background: #333;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #444;
+    }
+  </style>
+</head>
+ <!-- basic -->
+ <meta charset="utf-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <!-- mobile metas -->
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+ <!-- site metas -->
+ <title>Doze Cafe</title>
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="author" content="" />
+ <!-- bootstrap css -->
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+ <!-- style css -->
+ <link rel="stylesheet" type="text/css" href="css/style.css" />
+ <!-- Responsive-->
+ <link rel="stylesheet" href="css/responsive.css" />
+ <!-- fevicon -->
+ <link rel="icon" href="images/fevicon.png" type="image/gif" />
+ <!-- font css -->
+ <link
+   href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+   rel="stylesheet"
+ />
+ <!-- Scrollbar Custom CSS -->
+ <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+ <!-- Tweaks for older IEs-->
+ <link
+   rel="stylesheet"
+   href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+ />
+
+<body>
+    <div class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logo.png"
+            /></a>
+
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </nav>
+        </div>
+    
+  <div class="container">
+    <form id="login-form" action="indek.html" method="post">
+      <div class="input-group">
+        <label for="emailphone">Email or Phone</label>
+        <input type="text" id="emailphone" name="emailphone" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      
+      <a href="index.html" button type="submit" class="btn">login</button> 
+      <a style="text-align: center; margin-top: 10px;"> 
+        <a href="index.html">password?</a> | <a href="#">Buat akun</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
